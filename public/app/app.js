@@ -2,14 +2,16 @@
   'use strict'
 
   angular
-    .module('schoolApp', ['ui.router', 'schoolApp.student'])
-    .controller('SchoolController', SchoolController);
+    .module('schoolApp', ['ui.router', 'ui.bootstrap'])
+    .controller('AppController', AppController);
 
-    SchoolController.$inject = ['$scope'];
+  AppController.$inject = ['$scope', '$state', '$rootScope'];
 
-    function SchoolController($scope) {
-      var _this = this;
+  function AppController($scope, $state, $rootScope) {
+    $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams){
+        $scope.currentStateName = toState.name;
+    });
 
-    }
+  }
 
 })();
