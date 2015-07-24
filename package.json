@@ -2,7 +2,7 @@
   "name": "school-app",
   "version": "0.0.0",
   "description": "Classroom seat map",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "bower install"
@@ -16,5 +16,8 @@
     "method-override": "^2.3.4",
     "mongoose": "^4.0.8",
     "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "bower": "1.4.1"
   }
 }
