@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "description": "Classroom seat map",
   "main": "server.js",
+  "author": "Nickollas Coelho <nickollas.coelho@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nickollascoelho/SchoolApp.git"
+  },
   "engines": {
     "npm": "2.13.1"
   },
@@ -10,13 +16,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "bower install"
   },
-  "author": "Nickollas Coelho <nickollas.coelho@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "bower": "^1.4.1"
-  },
   "dependencies": {
     "body-parser": "^1.13.2",
+    "bower": "^1.4.1",
     "error-handler": "^1.0.0",
     "express": "^4.13.1",
     "method-override": "^2.3.4",
