@@ -1,11 +1,29 @@
 var Student = require('./models/student'),
     path = require('path');
 
+const SEAT_ROWS = 3;
+
 module.exports = function(app) {
   app.get('/api/students', function(req, res) {
     Student.find({}, function(err, docs) {
-      if (err) res.send(err);
-      res.json(docs);
+      if (err) {
+        res.send(err);
+      } else {
+        docs.sort(compareStudents);
+
+        var students = new Array(SEAT_ROWS);
+        var cols = docs.length / SEAT_ROWS;
+        var index = 0;
+
+        for (var i = 0; i < SEAT_ROWS; i++) {
+          students[i] = new Array(cols);
+          for (var j = 0; j < cols; j++) {
+            students[i][j] = docs[index++];
+          }
+        }
+
+        res.json(students);
+      }
     });
   });
 
@@ -27,5 +45,14 @@ module.exports = function(app) {
     res.sendFile(path.resolve('public/index.html'));
   });
 
+};
 
+var compareStudents = function(a, b) {
+  if (a.performanceGrade < b.performanceGrade) {
+    return -1;
+  }
+  if (a.performanceGrade > b.performanceGrade) {
+    return 1;
+  }
+  return 0;
 };

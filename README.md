@@ -1,5 +1,32 @@
 # SchoolApp
 
+AngularJS web application with a REST API built with Node.js and Express 4.x.
+
+[![Build Status](https://travis-ci.org/nickollascoelho/schoolApp.svg?branch=master)](https://travis-ci.org/nickollascoelho/schoolApp)
+
+#### Built with:
+* [node.js](http://www.nodejs.org/)
+* [express](http://www.expressjs.com/)
+* [mongolab](http://www.mongolab.com/)
+* [angularjs](https://angularjs.org/)
+* [bootstrap](http://getbootstrap.com/)
+
+#### Dependencies:
+* [nodejs](http://www.nodejs.org/)
+
+#### Install dependencies (may might need to use `sudo` for various reasons):
+* `brew/apt-get install nodejs`
+* `npm install`
+
+#### Environment variables:
+* `MONGLAB_STACK_MOBLEE_URL` -  Mongolab url (including authentication)
+ * example: `mongodb://<dbuser>:<dbpassword>@<dbserver>.mongolab.com:<dbport>/<db>`
+* `PORT` - Port exposed (default 8080)
+  * example: `3000`
+
+#### Introduction:
+The objective of this project:
+
 A school wants to hire your software company to develop a new web-based system which will
 help them distribute and visualize group of students in a classroom (they call it a “seat map”).
 For the sake of simplicity, all the rooms have their seats distributed in rows and columns.

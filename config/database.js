@@ -1,3 +1,3 @@
 module.exports = {
-      url : 'mongodb://school:schoolapp@ds051960.mongolab.com:51960/schoolapp-bravi'
+      url : process.env.MONGOLAB_SCHOOLAPP_URL
 };
