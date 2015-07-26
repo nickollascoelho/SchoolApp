@@ -1,0 +1,12 @@
+{ "_id" : { "$oid" : "55b1d0a0ba324832dc1b4d4c" }, "name" : "John", "height" : "180", "performanceGrade" : "4.2" }
+{ "_id" : { "$oid" : "55b1d0b3ba324832dc1b4d4d" }, "name" : "Mark", "height" : "172", "performanceGrade" : "2.2" }
+{ "_id" : { "$oid" : "55b1d0c8ba324832dc1b4d4e" }, "name" : "Bill", "height" : "165", "performanceGrade" : "3.2" }
+{ "_id" : { "$oid" : "55b1d0f8ba324832dc1b4d4f" }, "name" : "Adam", "height" : "153", "performanceGrade" : "7.5" }
+{ "_id" : { "$oid" : "55b1d34dba324832dc1b4d50" }, "name" : "Jenny", "height" : "158", "performanceGrade" : "3.5" }
+{ "_id" : { "$oid" : "55b1d35cba324832dc1b4d51" }, "name" : "Rosa", "height" : "170", "performanceGrade" : "3.3" }
+{ "_id" : { "$oid" : "55b1d376ba324832dc1b4d52" }, "name" : "Phill", "height" : "176", "performanceGrade" : "8.0" }
+{ "_id" : { "$oid" : "55b1d3d8ba324832dc1b4d53" }, "name" : "Jason", "height" : "181", "performanceGrade" : "2.0" }
+{ "_id" : { "$oid" : "55b1d3f0ba324832dc1b4d54" }, "name" : "Ross", "height" : "161", "performanceGrade" : "2.5" }
+{ "_id" : { "$oid" : "55b1d40dba324832dc1b4d55" }, "name" : "Alex", "height" : "161", "performanceGrade" : "4.5" }
+{ "_id" : { "$oid" : "55b1d49aba324832dc1b4d56" }, "name" : "Caroline", "height" : "158", "performanceGrade" : "7.0" }
+{ "_id" : { "$oid" : "55b1d4b0ba324832dc1b4d57" }, "name" : "Eric", "height" : "174", "performanceGrade" : "5.7" }
