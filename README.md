@@ -19,7 +19,7 @@ AngularJS web application with a REST API built with Node.js and Express 4.x.
 * `npm install`
 
 #### Environment variables:
-* `MONGLAB_STACK_MOBLEE_URL` -  Mongolab url (including authentication)
+* `MONGOLAB_URI` -  Mongolab url (including authentication)
  * example: `mongodb://<dbuser>:<dbpassword>@<dbserver>.mongolab.com:<dbport>/<db>`
 * `PORT` - Port exposed (default 8080)
   * example: `3000`
