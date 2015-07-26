@@ -2,7 +2,7 @@
 
 AngularJS web application with a REST API built with Node.js and Express 4.x.
 
-[![Build Status](https://travis-ci.org/nickollascoelho/schoolApp.svg?branch=master)](https://travis-ci.org/nickollascoelho/schoolApp)
+[![Build Status](https://travis-ci.org/nickollascoelho/bravi-schoolapp.svg)](https://travis-ci.org/nickollascoelho/bravi-schoolapp)
 
 #### Built with:
 * [node.js](http://www.nodejs.org/)
